@@ -7,3 +7,6 @@ puts h
 h.delete(:y)
 puts h
 h.each{|key, value| puts 'yeeah' if key == :z}
+puts h.invert
+
+
